@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uomfwtntt0n0"
-path="res://.godot/imported/Melon.png-58ba1327df7bc023d7f9ac7201644a0e.ctex"
+uid="uid://bem46gwldthl5"
+path="res://.godot/imported/Cool Text - Jump-Jump 510754516590043.png-a74eca883ae005116de90cca0b4b3ecd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Melon.png"
-dest_files=["res://.godot/imported/Melon.png-58ba1327df7bc023d7f9ac7201644a0e.ctex"]
+source_file="res://assets/Cool Text - Jump-Jump 510754516590043.png"
+dest_files=["res://.godot/imported/Cool Text - Jump-Jump 510754516590043.png-a74eca883ae005116de90cca0b4b3ecd.ctex"]
 
 [params]
 

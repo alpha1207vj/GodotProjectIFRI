@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byfqxba38ld2y"
-path="res://.godot/imported/Terrain (16x16).png-f072e8a5f99e915c05031c83401c87a9.ctex"
+uid="uid://0331p2lgiohk"
+path="res://.godot/imported/Cool Text - Bravo Vous avez fini le jeu 510899822857187.png-243d848908f2d49e227661fd1a0408eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Terrain (16x16).png"
-dest_files=["res://.godot/imported/Terrain (16x16).png-f072e8a5f99e915c05031c83401c87a9.ctex"]
+source_file="res://assets/Cool Text - Bravo Vous avez fini le jeu 510899822857187.png"
+dest_files=["res://.godot/imported/Cool Text - Bravo Vous avez fini le jeu 510899822857187.png-243d848908f2d49e227661fd1a0408eb.ctex"]
 
 [params]
 

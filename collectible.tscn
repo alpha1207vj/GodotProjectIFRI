@@ -1,6 +1,6 @@
 [gd_scene load_steps=22 format=3 uid="uid://cvyv0rmbcbnq6"]
 
-[ext_resource type="Texture2D" uid="uid://r0w1h2un2r23" path="res://Orange.png" id="1_rd2yi"]
+[ext_resource type="Texture2D" uid="uid://r0w1h2un2r23" path="res://assets/Orange.png" id="1_rd2yi"]
 
 [sub_resource type="GDScript" id="GDScript_rd2yi"]
 resource_name = "res://scenes/collectible.gd"
@@ -9,7 +9,7 @@ script/source = "extends Area2D
 @onready var game_manager: Node = %GameManager
 
 
-func _on_body_entered(body: Node2D) -> void:
+func _on_body_entered(_body: Node2D) -> void:
 	queue_free()
 	game_manager.add_point()
 "

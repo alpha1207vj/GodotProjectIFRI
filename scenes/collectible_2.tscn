@@ -1,16 +1,15 @@
 [gd_scene load_steps=22 format=3 uid="uid://316kym1ond3h"]
 
-[ext_resource type="Texture2D" uid="uid://uomfwtntt0n0" path="res://Melon.png" id="1_atmng"]
+[ext_resource type="Texture2D" uid="uid://uomfwtntt0n0" path="res://assets/Melon.png" id="1_atmng"]
 
 [sub_resource type="GDScript" id="GDScript_atmng"]
 resource_name = "res://scenes/collectible_2.gd"
 script/source = "extends Area2D
 
-
 @onready var game_manager: Node = %GameManager
 
 
-func _on_body_entered(body: Node2D) -> void:
+func _on_body_entered(_body: Node2D) -> void:
 	queue_free()
 	game_manager.add_point()
 "
@@ -153,6 +152,6 @@ shape = SubResource("CircleShape2D_uaw01")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_atmng")
 autoplay = "default"
-frame_progress = 0.897038
+frame_progress = 0.00338744
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
